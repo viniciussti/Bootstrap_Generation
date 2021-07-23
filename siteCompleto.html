@@ -19,16 +19,29 @@
       height: 40px;
     }
 
+    .fundo{
+      background-image:url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/03/netflix-netflix.jpg)
+    }
+
+    .borda{
+      border-radius: 10%;
+    }
+    
+
   </style>
 
 </head>
 
 <body>
+  
+  <div class="fundo">
+
+ 
 
   <!-- barra de navegação (documentação-barra de navegação)-->
   <nav
-    class="navbar navbar-expand-lg navbar-light bg-dark font-italic font-weight-bold shadow-lg p-3 mb-5 bg-dark rounded">
-    <a class="navbar-brand text-warning" href="#">ZinhosTorrent</a>
+    class="navbar navbar-expand-lg navbar-light bg-dark font-italic font-weight-bold shadow-lg p-3 mb-5 bg-dark rounded borda">
+    <a class="navbar-brand text-warning" href="siteCompleto.html"> <img src="#" width="50px" alt=""> Zinhos Drive</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
       aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
@@ -37,21 +50,24 @@
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link text-warning" href="#">Home <span class="sr-only">(página atual)</span></a>
+          <a class="nav-link text-white" href="siteCompleto.html">Home <span class="sr-only">(página atual)</span></a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link disabled text-warning" href="#">Filmes</a>
+          <a class="nav-link disabled text-white" href="filmes.html">Filmes</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link disabled text-warning" href="#">Séries</a>
+          <a class="nav-link disabled text-white" href="series.html">Séries</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-warning" href="#">Lançamentos</a>
+          <a class="nav-link text-white" href="#">Lançamentos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-warning" href="#">Infantil</a>
+          <a class="nav-link text-white" href="#">Infantil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Explorar</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -63,19 +79,20 @@
   <!--/Menu-->
 
   <!--Jumbotron-->
-  <div class="container">
-    <div class="jumbotron jumbotron-fluid bg-dark text-warning">
+  <div class="container-fluid  borda">
+    <div class="jumbotron jumbotron-fluid bg-dark text-white">
       <div class="container">
-        <h1 class="display-4 font-weight-bold font-italic">FILMES EM DESTAQUE</h1>
-        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum eaque quaerat debitis, sequi
-          atque illo!
+        <h1 class="display-4 font-weight-bold font-italic">OS MELHORES FILMES E SÉRIES</h1>
+        <p class="lead">Totalmente gratuitos sem precisar baixar!
         </p>
       </div>
     </div>
+  </div>
     <!--/Jumbotron-->
 
     <!--Carousel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    
+    <div id="carouselExampleIndicators " class="carousel slide p-4 m-4" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -83,17 +100,17 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="https://cinepop.com.br/wp-content/uploads/2021/07/melhoresde2021.jpg"
+          <img class="d-block w-100" src="img/filmes2021.jpg"
             alt="Primeiro Slide">
         </div>
         <div class="carousel-item">
           <img class="d-block w-100"
-            src="https://medias.cnnbrasil.com.br/lancamentos-do-cinema-de-2021.jpeg?format=JPEG&image=https://mediastorage.cnnbrasil.com.br/IMAGES/00/00/02/22351_941138E108C4EA4B.jpg&width=800&height=420&resize=CROP"
+            src="img/filmesss2021.jpeg"
             alt="Segundo Slide">
         </div>
         <div class="carousel-item">
           <img class="d-block w-100"
-            src="https://t.ctcdn.com.br/N14QX-6PkDXKmR-33uvHuvBRzgY=/1400x788/smart/i414966.png" alt="Terceiro Slide">
+            src="img/filmes2021.jpg" alt="Terceiro Slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -112,20 +129,23 @@
     </div>
     <!--CARDS-->
 
-    <div class="container">
-      <div class="card-columns">
-        <div class="card">
-          <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-            <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução
-              a
-              um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+    <div class="container ">
+      <div class="card-columns ">
+        <div class="card  bg-dark mb-3 border-secondary mb-3 text-white">
+          <img class="card-img-top " src="img/lugarSilencioso.jpg" alt="Imagem de capa do card">
+          <div class="card-body ">
+            <h5 class="card-title">Lugar Silencioso II ⭐⭐⭐⭐⭐ </h5>
+            <p class="card-text">Em Um Lugar Silencioso - Parte 2, logo após os acontecimentos mortais do primeiro filme, 
+              a família Abbott (Emily Blunt, Millicent Simmonds e Noah Jupe) 
+              precisa agora encarar o terror mundo afora, continuando a lutar para sobreviver em silêncio. 
+              Obrigados a se aventurar pelo desconhecido, eles rapidamente percebem que as criaturas que caçam pelo 
+              som não são as únicas ameaças que os observam pelo caminho de areia.</p>
           </div>
         </div>
-        <div class="card p-3">
+        <div class="card p-3  bg-dark mb-3 border-secondary mb-3 text-white">
           <blockquote class="blockquote mb-0 card-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <p>Tão bom quanto o primeiro. Aparentemente com menos ação, 
+              mas por ser mais explicativo, se torna bem mais interessante. Muito bom.</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
                 Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
@@ -133,16 +153,17 @@
             </footer>
           </blockquote>
         </div>
-        <div class="card">
-          <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+        <div class="card  bg-dark mb-3 border-secondary mb-3 text-white">
+          <img class="card-img-top" src="img/luca.jpg" alt="Imagem de capa do card">
           <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
-              conteúdo adicional.</p>
+            <h5 class="card-title">Luca ⭐⭐⭐⭐⭐</h5>
+            <p class="card-text">Luca vive aventuras com seu novo melhor amigo, 
+              mas a diversão é ameaçada por um segredo: seu amigo é um monstro marinho 
+              de outro mundo que fica abaixo da superfície da água.</p>
             <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
           </div>
         </div>
-        <div class="card bg-primary text-white text-center p-3">
+        <div class="card text-dark bg-warning mb-3 text-white">
           <blockquote class="blockquote mb-0">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
             <footer class="blockquote-footer">
@@ -152,47 +173,150 @@
             </footer>
           </blockquote>
         </div>
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
-              conteúdo adicional.</p>
+        <div class="card text-center  bg-dark mb-3 border-secondary mb-3 text-white">
+          <div class="card-body ">
+            <h5 class="card-title">Maravilhoso. História super divertida e madura. 
+              Disney se superou em fazer algo sobre pessoas excluídas de uma forma bastante agradável</h5>
+            <p class="card-text"> </p>
             <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
           </div>
         </div>
         <div class="card">
-          <img class="card-img" src=".../100px260/" alt="Imagem do card">
+          <img class="card-img" src="img/cruella.jpg" alt="Imagem do card">
         </div>
-        <div class="card p-3 text-right">
-          <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer class="blockquote-footer">
-              <small class="text-muted">
-                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-              </small>
-            </footer>
-          </blockquote>
-        </div>
-        <div class="card">
+       
+        <div class="card  bg-dark mb-3 border-secondary mb-3 text-white">
           <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
-              conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em
-              ação.</p>
+            <h5 class="card-title">Cruella ⭐⭐⭐⭐⭐</h5>
+            <p class="card-text">Ambientado na Londres dos anos 70 em meio à revolução do punk rock, 
+              o filme da Disney mostra a história de uma jovem vigarista chamada Estella (Emma Stone). 
+              Inteligente, criativa e determinada a fazer um nome para si através de seus designs, 
+              ela acaba chamando a atenção da Baronesa Von Hellman (Emma Thompson), uma lenda fashion que 
+              é devastadoramente chique e assustadora. Entretanto, o relacionamento delas desencadeia um 
+              curso de eventos e revelações que farão com que Estella abrace seu lado rebelde e se torne a Cruella,
+               uma pessoa má, elegante e voltada para a vingança.</p>
             <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+      
+
+      <div class="card p-3 text-right  bg-dark mb-3 border-secondary mb-3 text-white">
+        <blockquote class="blockquote mb-0">
+          <p>Excelente duelo interpretativo da protagonista versus a baronesza. 
+            Grandes atrizes em filme muito divertido e bem produzido. 
+            </p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      
+
+    </div>
+    
+    <div class="row mt-5 mb-5 d-flex justify-content-center  bg-dark mb-3 border-secondary mb-3 text-white">
+      <div class="col-md-6 m-5">
+        <h3>Texto teste</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil fuga deleniti deserunt laboriosam voluptas
+          mollitia consequatur possimus esse aperiam pariatur aspernatur repudiandae expedita neque libero quo, est et!
+          Magni, dolore.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus in voluptatibus odit praesentium
+          soluta dolorum atque optio sequi magni nisi labore obcaecati ut repellat et recusandae omnis, nostrum
+          adipisci.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto ipsum porro id impedit, omnis dicta,
+          vel non facere fuga, ab velit itaque suscipit tempora alias inventore fugiat quidem cumque!</p>
+    
+      
+      <div class="row mt-5 mb-5">
+        <div class="col-md-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/otwfRPuE6O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  
+      <!--/CARDS-->
+
+    <!--FORMULARIO-->
+    <div class="row mb-5 ">
+      <div class="col-md-12 ">
+        <h4 class="text-center">
+          Quais filmes ou séries que você quer assistir?
+        </h4>
+      </div>
+    </div>
+
+    <form>
+      <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Filme/Série</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputEmail3" placeholder="Sugestão">
+        </div>
+      </div>
+      <div class="d-flex justify-content-center font-weight-bold">
+        <p>CASO JA TENHA UM LINK </p>
+      </div>
+      
+      <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Link</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputPassword3" placeholder="Exemplo: googledrive/filme.com">
+        </div>
+      </div>
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-2 pt-0">Categoria</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                Filme
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
+              <label class="form-check-label" for="gridRadios2">
+                Série
+              </label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="opcao3" >
+              <label class="form-check-label" for="gridRadios3">
+                Outros
+              </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <div class="form-group row">
+        <div class="col-sm-2">Checkbox</div>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Checkbox exemplo
+            </label>
           </div>
         </div>
       </div>
+      <div class="form-group row">
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-primary">Entrar</button>
+        </div>
+      </div>
+    </form>
 
+      
+    <!--/FORMULARIO-->
 
-      <!--/CARDS-->
 
       <!--FOOTER-->
 
       <hr>
       <footer>
 
-        <div class="row mb-3">
+        <div class="row mb-5">
           <div class="col-md-12 d-flex justify-content-center">
 
             <a href="https://github.com/viniciussti" target="_blank" class="p-3">
@@ -210,18 +334,24 @@
 
           </div>
         </div>
+        
 
-        <div class="row">
+        <div class="row center ">
           <div class="col-md-12">
-            <p class="text-center">
-              Todos os direitos reservados: ZinhosTorrent &copy
+            <p class="text-center ">
+              Todos os direitos reservados: ZinhosDrive &copy
             </p>
           </div>
         </div>
-
+      
+      
       </footer>
-
+    
       <!--/FOOTER-->
+
+    
+    
+      
 
       <!--js-->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
